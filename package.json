@@ -4,7 +4,8 @@
   "description": "Brackets",
   "main": "test.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,13 @@
     "url": "https://github.com/yankouskia/additional_5/issues"
   },
   "devDependencies": {
+    "eslint": "^5.14.1",
     "mocha": "^3.2.0"
   },
-  "homepage": "https://github.com/yankouskia/additional_5#readme"
+  "homepage": "https://github.com/yankouskia/additional_5#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
